@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es">
+    <head>
+        <head>
+            <link href="index.css" rel="stylesheet">
+            <script src="prueba2.js" async></script>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        </head>
+    </head>
+    <body>
+        <div class="primero">
+            DESCUBRA UN PLATILLO CON LOS INGREDIENTES QUE USTED ELIJA
+        </div>
+        <div class="intro">
+            Seleccione el menu deseado. Una vez seleccionado el menu de su preferencia, puede ocultar dicho menu volviendo a dar click al boton.
+        </div>
+        <div class="menu1">
+            COMIDA CASERA->
+        </div>
+        <div class="menu2">
+            POSTRES->
+        </div>
+        <div id="contenedor">
+            <div class="loader" id="loader">
+                ::before 
+                "Loading..."
+                ::after 
+            </div>
+        </div>
+        <div class="fire">
+            <div class="fire-left">
+              <div class="main-fire"></div>
+              <div class="particle-fire"></div>
+            </div>
+            <div class="fire-center">
+              <div class="main-fire"></div>
+              <div class="particle-fire"></div>
+            </div>
+            <div class="fire-right">
+              <div class="main-fire"></div>
+              <div class="particle-fire"></div>
+            </div>
+            <div class="fire-bottom">
+              <div class="main-fire"></div>
+            </div>
+        </div>
+        <div class="fire2">
+            <div class="fire-left2">
+              <div class="main-fire2"></div>
+              <div class="particle-fire2"></div>
+            </div>
+            <div class="fire-center2">
+              <div class="main-fire2"></div>
+              <div class="particle-fire2"></div>
+            </div>
+            <div class="fire-right2">
+              <div class="main-fire2"></div>
+              <div class="particle-fire2"></div>
+            </div>
+            <div class="fire-bottom2">
+              <div class="main-fire2"></div>
+            </div>
+        </div>
+        <h1 class="salida">Horneando platillo</h1>
+        <button id="menu1">Menu 1</button>
+        <button id="menu2">Menu 2</button>
+        <table id="table">
+            <tr>
+                <td><p class="ajo">Ajo</p><img src="https://w7.pngwing.com/pngs/687/273/png-transparent-garlics-garlic-organic-food-cooking-vegetable-herb-garlic-food-onion-vegetables.png"></td>
+                <td><p class="albahaca">Albahaca</p><img src="https://images.vexels.com/content/149059/preview/basil-herb-illustration-01a33f.png"></td>
+                <td><p class="arroz">Arroz</p><img src="https://thumbs.dreamstime.com/b/arroz-17912789.jpg"></td>
+                <td><p class="apio">Apio</p><img src="https://images.vexels.com/media/users/3/149062/isolated/preview/0961cbc18f6578adf49b5888e3152a78-ilustracion-de-hierba-de-apio.png"></td>
+                <td><p class="aguacate">Aguacate</p><img src="https://exoticfruitbox.com/wp-content/uploads/2015/10/aguacate.jpg"></td>
+                <td><p class="cebolla">Cebolla</p><img src="https://naturalbalance.club/cdn/shop/products/CEBOLLA-BLANCA_2048x.png?v=1649088018"></td>
+                <td><p class="chile_serrano">Chile Serrano</p><img src="https://res.cloudinary.com/riqra/image/upload/v1685117968/sellers/merco-monterrey/products/bj2xqg3klamwljlzhyfy.jpg"></td>
+            </tr>
+            <tr>
+                <td><p class="chile_pasilla">Chile pasilla</p><img src="https://mercadoacasa.mx/cdn/shop/products/chile-pasilla_1200x1200.png?v=1587495625"></td>
+                <td><p class="chila_poblano">Chile poblano</p><img src="https://media.istockphoto.com/id/919778530/es/foto/chiles-poblano.jpg?s=612x612&w=0&k=20&c=pxgnhbj75wyPjNOfpOFnLTb4SYUYCm2pW7jrDvqCSE4="></td>
+                <td><p class="caldo_pollo">Caldo de pollo</p><img src="https://e7.pngegg.com/pngimages/547/671/png-clipart-chicken-soup-pizza-ukha-broth-chicken-soup-food-thumbnail.png"></td>
+                <td><p class="carneres">Carne de res</p><img src="https://img.freepik.com/fotos-premium/carne-res-cruda_664644-5048.jpg"></td>
+                <td><p class="carnecerdo">Carne de cerdo</p><img src="https://previews.123rf.com/images/kvladimirv/kvladimirv1702/kvladimirv170200096/72163743-carne-de-cerdo-cruda-cortada-aislada-en-el-fondo-blanco-ingredientes-para-la-preparaci%C3%B3n-de-platos.jpg"></td>
+                <td><p class="carnepollo">Carne de pollo</p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAPhyDmr2tlCNICAEuYkV65Ra3kp8AutBP7A&s"></td>
+                <td><p class="chorizo">Chorizo</p><img src="https://www.shutterstock.com/image-photo/traditional-spanish-chorizo-sausages-isolated-260nw-1634510236.jpg"></td>
+            </tr>
+            <tr>
+                <td><p class="cilantro">Cilantro</p><img src="https://thumbs.dreamstime.com/b/coriandro-cilantro-de-la-serie-de-la-hierba-2544006.jpg"></td>
+                <td><p class="crema">Crema</p><img src="https://w7.pngwing.com/pngs/685/250/png-transparent-creme-fraiche-sour-cream-yoghurt-whipped-cream-joghurt-cream-food-flavor-thumbnail.png"></td>
+                <td><p class="espagueti">Espagueti</p><img src="https://png.pngtree.com/png-clipart/20201221/ourlarge/pngtree-raw-long-noodles-for-spaghetti-png-image_2608047.jpg"></td>
+                <td><p class="epazote">Epazote</p><img src="https://huacalli.com.mx/wp-content/uploads/EPAZOTE.png"></td>
+                <td><p class="frijoles">Frijoles</p><img src="https://m.media-amazon.com/images/I/91skr+L0RnL.jpg"></td>
+                <td><p class="huevo">Huevo</p><img src="https://media.istockphoto.com/id/165160671/es/foto/marr%C3%B3n-de-huevos.jpg?s=612x612&w=0&k=20&c=MII61unuzRMTQM8LtztyfwoUXgmfZO12vfxsLyTDQfg="></td>
+                <td><p class="jamon">Jamon</p><img src="https://media.istockphoto.com/id/488330599/es/foto/jam%C3%B3n-fresco.jpg?s=612x612&w=0&k=20&c=VyWUWq-1F30GuG1O9m9ewTjoMA2qJMKlJW0B0K2RcLU="></td>
+            </tr>
+            <tr>
+                <td><p class="limones">Limones</p><img src="https://st2.depositphotos.com/1006597/6549/i/450/depositphotos_65490531-stock-photo-fresh-limes.jpg"></td>
+                <td ><p class="leche">Leche</p><img src="https://thumbs.dreamstime.com/b/jarro-y-vidrio-de-leche-33845266.jpg"></td>
+                <td><p class="lechuga">Lechuga</p><img src="https://www.gob.mx/cms/uploads/image/file/398176/lechuga5.jpg"></td>
+                <td><p class="lentejas">Lentejas</p><img src="https://w7.pngwing.com/pngs/370/690/png-transparent-lentil-legume-lenteja-pardina-cereal-food-others-miscellaneous-lens-cooking-thumbnail.png"></td>
+                <td><p class="mantequilla">Mantequilla</p><img src="https://png.pngtree.com/png-clipart/20210418/original/pngtree-photography-chef-cooking-butter-png-image_6225575.jpg"></td>
+                <td><p class="nopales">Nopales</p><img src="https://www.grillhouse.mx/cdn/shop/products/GH_VDRS_Nopales_MTY.jpg?v=1648652601"></td>
+                <td><p class="pinones">Piñones</p><img src="https://png.pngtree.com/png-vector/20201129/ourmid/pngtree-original-pine-nuts-png-image_2403529.jpg"></td>
+            </tr>
+            <tr>
+                <td><p class="papas">Papas</p><img src="https://media.istockphoto.com/id/157430678/es/foto/tres-de-papas.jpg?s=612x612&w=0&k=20&c=Tasc5CqTXRdkiAHZNI2XSZfesh_ovnjgbes1QuoRscs="></td>
+                <td><p class="pan">Pan</p><img src="https://png.pngtree.com/png-vector/20240131/ourlarge/pngtree-one-piece-white-bread-png-image_11575276.png"></td>
+                <td><p class="pimienta">Pimienta</p><img src="https://e7.pngegg.com/pngimages/414/390/png-clipart-black-pepper-seasoning-chili-pepper-paprika-black-pepper-chili-pepper-raw-meat.png"></td>
+                <td><p class="pimiento">Pimientos</p><img src="https://png.pngtree.com/png-clipart/20210530/original/pngtree-sweet-pepper-colored-diet-png-image_6343597.jpg"></td>
+                <td><p class="queso">Queso</p><img src="https://res.cloudinary.com/riqra/image/upload/w_656,h_656,c_limit,q_auto,f_auto/v1668553036/sellers/4/ix7daiainogewxbwkxqk.jpg"></td>
+                <td><p class="tortillas">Tortillas</p><img src="https://static7.depositphotos.com/1007298/717/i/950/depositphotos_7176507-stock-photo-flour-tortillas.jpg"></td>
+                <td><p class="tomate">Tomate</p><img src="https://media.istockphoto.com/id/1450576005/es/foto/tomate-aislado-tomate-sobre-fondo-blanco-perfecta-vista-lateral-de-tomate-retocado-con-trazado.jpg?s=612x612&w=0&k=20&c=DZQAmlxov8KbvT4vcSAoU9L5dU6bqNTbBESzBMtuMZ4="></td>
+            </tr>
+        </table>
+        <table id="table2">
+            <tr>
+                <td><p class="avena">Avena</p><img src="https://img.freepik.com/foto-gratis/avena_1368-5509.jpg"></td>
+                <td><p class="arroz">Arroz</p><img src="https://thumbs.dreamstime.com/b/arroz-17912789.jpg"></td>
+                <td><p class="azucar">Azúcar</p><img src="https://png.pngtree.com/png-clipart/20230623/original/pngtree-sugar-cube-png-image_9204347.png"></td>
+                <td><p class="canela">Canela</p><img src="https://e7.pngegg.com/pngimages/967/300/png-clipart-cinnamon-cooking-ingredients-thumbnail.png"></td>
+                <td><p class="caramelo">Caramelo</p><img src="https://w7.pngwing.com/pngs/705/726/png-transparent-three-caramel-cubes-baileys-irish-cream-caramel-chocolate-bar-flavor-caramel-cream-food-himalayan-salt-thumbnail.png"></td>
+            </tr>
+            <tr>
+                <td><p class="chocolate">Chocolate</p><img src="https://w7.pngwing.com/pngs/976/860/png-transparent-chocolate-bars-chocolate-bar-white-chocolate-dark-chocolate-candy-choco-food-chocolate-syrup-cocoa-bean-thumbnail.png"></td>
+                <td><p class="galletas">Galletas</p><img src="https://img.freepik.com/foto-gratis/galletas-chispas-chocolate-aisladas-sobre-fondo-blanco-ai-generativo_123827-24070.jpg"></td>
+                <td><p class="gelatina">Gelatina</p><img src="https://media.istockphoto.com/id/1393065804/es/foto/prote%C3%ADna-de-fresa-en-polvo-y-fruta-de-fresa-fresca-aislada-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=XP_GGqUclFcmEKgSQkJAYPzk1-ZxqGDfXkqHZ-3Us-Q="></td>
+                <td><p class="huevos">Huevos</p><img src="https://media.istockphoto.com/id/165160671/es/foto/marr%C3%B3n-de-huevos.jpg?s=612x612&w=0&k=20&c=MII61unuzRMTQM8LtztyfwoUXgmfZO12vfxsLyTDQfg="></td>
+                <td><p class="harina">Harina</p><img src="https://static.vecteezy.com/system/resources/previews/034/616/355/non_2x/ai-generated-flour-in-bowl-on-transparent-background-image-png.png"></td>
+            </tr>
+            <tr>
+                <td><p class="leche">Leche</p><img src="https://thumbs.dreamstime.com/b/jarro-y-vidrio-de-leche-33845266.jpg"></td>
+                <td><p class="levadura">Levadura</p><img src="https://w7.pngwing.com/pngs/441/111/png-transparent-dietary-supplement-brewer-s-yeast-herb-yeast-extract-food-health-thumbnail.png"></td>
+                <td><p class="masa">Masa</p><img src="https://w7.pngwing.com/pngs/213/769/png-transparent-dough-puff-pastry-pelmeni-pierogi-yeast-cake-dough-recipe-pelmeni-bread.png"></td>
+                <td><p class="manzana">Manzana</p><img src="https://static.vecteezy.com/system/resources/thumbnails/020/899/515/small/red-apple-isolated-on-white-png.png"></td>
+                <td><p class="mantequilla">Mantequilla</p><img src="https://static.vecteezy.com/system/resources/previews/044/813/520/non_2x/butter-with-knife-isolated-on-transparent-background-free-png.png"></td>
+            </tr>
+            <tr>
+                <td><p class="maicena">Maicena</p><img src="https://w7.pngwing.com/pngs/140/387/png-transparent-kaolinite-clay-powder-diatomaceous-earth-bentonite-raw-material-miscellaneous-cosmetics-rock-thumbnail.png"></td>
+                <td><p class="nueces">Nueces</p><img src="https://png.pngtree.com/png-clipart/20210613/original/pngtree-walnut-shell-snack-color-png-image_6404048.jpg"></td>
+                <td><p class="nata">Nata</p><img src="https://static.vecteezy.com/system/resources/thumbnails/047/826/577/small/sour-cream-against-transparent-background-free-png.png"></td>
+                <td><p class="queso_crema">Queso crema</p><img src="https://w7.pngwing.com/pngs/864/844/png-transparent-quebec-cream-poutine-cheese-pasta-cheese-cream-cheese-recipe.png"></td>
+                <td><p class="vainilla">Vainilla</p><img src="https://static.vecteezy.com/system/resources/thumbnails/044/809/181/small_2x/realistic-vanilla-fruit-and-vanilla-flowers-transparent-background-png.png"></td>
+            </tr>
+        </table>
+        <button id="limpiar">LIMPIAR</button>
+    </body>
+</html>
